@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            height: 70px;
+             background-color: black; 
+            display: grid;
+             display: flex;
+            /* border: 1px solid black; */
+            justify-content: space-between;
+            border-radius: 15px;
+        }
+
+        #main>div:first-child{
+            /* border: 1px solid blue; */
+            width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        #main>div:last-child{
+            /* border: 1px solid blue; */
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #main>div:last-child>div{
+            /* border: 1px solid red; */
+            width:70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            
+        }
+
+        
+
+      
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div>Reebok</div>
+        <div>
+            <div>Men</div>
+            <div>Women</div>
+            <div>Login</div>
+            <div>Signup</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
