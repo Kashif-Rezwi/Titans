@@ -1,22 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mens</title>
+    <title>Document</title>
     <style>
-        div{
-            width: 80%;
+        #main {
+            display: flex;
+            justify-content: space-around;
             margin: auto;
+            margin-top: 50px;
         }
-        img{
-            width: 100%;
+
+        #main>div>div {
+            display: flex;
+            justify-content: start;
+            gap: 10px;
+            margin-top: -35px;
+        }
+
+        img {
+            padding: 0px 130px;
+
+        }
+
+        #main>div>img+h3 {
+            font-size: 40px;
+            margin-top: 10pxpx;
+        }
+
+        #main>div>h3+p {
+            font-size: 35px;
+            color: grey;
+            margin-top: -32px;
+        }
+
+        #main>div>div>:nth-child(1) {
+            font-size: 30px;
+        }
+
+        #main>div>div>p {
+            font-size: 30px;
+            color: grey;
+            text-decoration: line-through
+        }
+
+        #main>div>div>:nth-child(3) {
+            font-size: 30px;
+            color: green;
         }
     </style>
-    
 </head>
+
 <body>
-    <div><img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-23/mensPage_879698.png" alt=""></div>
+    <div id="main">
+        <!-- Card first -->
+        <div>
+            <img src="https://m.media-amazon.com/images/I/51yei2woPxL._AC_UL320_.jpg" alt="pause">
+            <h3>Pause</h3>
+            <p>Men Cotton Long Sleeves Shrug</p>
+            <div>
+                <h3>₹ 359</h3>
+                <p>₹1,499</p>
+                <h3>-76%</h3>
+            </div>
+        </div>
+        <!-- card second -->
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71VC0NZLWTL._AC_UL320_.jpg" alt="JUBINATION">
+            <h3>JUBINATION</h3>
+            <p>Men Wood Sleeveless Sweater Pack Of 1</p>
+            <div>
+                <h3>₹ 799</h3>
+                <p>₹1,499</p>
+                <h3>-47%</h3>
+            </div>
+        </div>
 </body>
+
 </html>
